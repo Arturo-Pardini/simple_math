@@ -9,5 +9,5 @@
 #define _SIMPLEMATH_   //allora lo definisco
 
 float mean (int a, int b);
-
+int max ( int a, int b);
 #endif
