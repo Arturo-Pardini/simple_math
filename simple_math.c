@@ -13,3 +13,12 @@ int max (int a, int b){
 		return a;
 	return b;
 }
+
+cx_float_t cx_mean (cx_int_t a, cx_int_t b){
+	cx_float_t average;
+	
+	average.re = mean(a.re,b.re);
+	average.imm = mean(a.imm,b.imm);
+	
+	return average;
+}
